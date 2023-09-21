@@ -12,10 +12,11 @@
 }
 
 :root {
-    --bg-color:rgb(194, 125, 125);
+    --bg-color:rgb(29,48,78);
     --first-color:rgb(145, 58, 58);
-    --second-bg-color:rgb(145, 58, 58);
-    --text-color:rgb(50, 22, 22);
+    --but-color: rgb(229,242,209);
+    --second-bg-color:rgb(29,48,78);
+    --text-color:rgb(0, 0, 0);
     --main-color: rgb(132, 29, 29);
 }
 
@@ -26,7 +27,7 @@ html{
 
 body{
     background: var(--bg-color);
-    color: var(--text-color);
+    color: var(--first-color);
 }
 
 .header{
@@ -44,13 +45,13 @@ body{
 
 .logo {
     font-size: 2.5rem;
-    color: var(--text-color);
+    color: var(--first-color);
     font-weight: 600;
 }
 
 .navbar a {
     font-size: 1.7rem;
-    color: var(--text-color);
+    color: var(--first-color);
     margin-left: 3.5rem;
     transition: .3s;
 }
@@ -119,7 +120,47 @@ section {
     align-items: center;
     width: 15rem;
     height: 100%;
-    background-color: var(--first-color);
-    border: .2rem solid var(--main-color);
+    background-color: var(--second-bg-color);
+    border: .2rem solid var(--first-color);
     border-radius: .8rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    color: var(--text-color);
+    z-index: 1;
+    overflow: hidden;
+}
+
+.btn-box .btn:nth-child(1) {
+    background: transparent;
+    color: var(--but-color);
+}
+
+.btn-box .btn:nth-child(1)::before {
+    background: var(--first-color);
+}
+
+.btn-box .btn:nth-child(2) {
+    background: transparent;
+    color: var(--but-color);
+}
+
+.btn-box .btn:nth-child(2)::before {
+    background: var(--first-color);
+}
+
+.btn-box .btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--second-bg-color);
+    z-index: -1;
+    transform: .5s;
+}
+
+.btn-box .btn:hover::before {
+    width: 100%;
 }
