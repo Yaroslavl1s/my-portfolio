@@ -205,11 +205,12 @@ section {
 }
 
 .home-sci {
-    margin-top: 10px;
+    margin-top: 50px;
     bottom: 4rem;
-    width: 170px;
+    width: 200px;
     display: flex;
     justify-content: space-between;
+    font-size: 20px;
 }
 
 .home-sci a {
@@ -275,4 +276,14 @@ section {
 
 .p {
     width: 100px;
+}
+
+.about-content h3 {
+    font-size: 20px;
+    line-height: 70px;
+}
+
+
+.about-content p {
+    font-size: 20px;
 }
