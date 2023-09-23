@@ -287,3 +287,29 @@ section {
 .about-content p {
     font-size: 20px;
 }
+
+
+
+.auto{
+    display: inline-block;
+    width: 500px;
+}
+.auto div{
+    background: var(--bg-color);  
+    overflow: hidden;  
+}
+.auto div img{
+    opacity: 1;
+    transition: opacity 124ms linear, transform 124ms linear;  
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 10px;
+}
+.auto:hover div img{
+    opacity: 0.5; 
+    transform: scale(1.05); 
+}
+.auto + .auto div{
+    background: #fff; 
+}
