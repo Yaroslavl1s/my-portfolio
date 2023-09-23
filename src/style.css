@@ -14,20 +14,18 @@
 body {
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    background: var(--bg-color);
+    color: var(--main-color);
 }
 
-body html h1 span p{
-   
-}
 
 .boxx {
-    position: relative;
+    position: absolute;
     width: 200px;
     height: 200px;
     transform-style: preserve-3d;
     animation: animate 20s linear infinite;
-    margin-top: 500px;
+    margin-top: 350px;
     margin-left: 75%;
 }
 @keyframes animate {
@@ -73,11 +71,6 @@ html{
     overflow-x: hidden;
 }
 
-body{
-    background: var(--bg-color);
-    color: var(--main-color);
-}
-
 .header {
     position: fixed;
     top: 0;
@@ -117,18 +110,17 @@ body{
 }
 
 section {
-    min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
 
 .home{
-    display: flex;
     align-items: center;
     padding: 0 9%;
 }
 
 .home-content{
     max-width: 60rem;
+    line-height: 1.2;
 }
 
 .home-content h1 {
@@ -213,7 +205,7 @@ section {
 }
 
 .home-sci {
-    position: absolute;
+    margin-top: 10px;
     bottom: 4rem;
     width: 170px;
     display: flex;
