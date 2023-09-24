@@ -296,6 +296,9 @@ section {
 .auto div{
     background: var(--bg-color);  
     overflow: hidden;  
+    padding: 20px;
+    margin-left: 50px;
+    padding: 30px;
 }
 .auto div img{
     opacity: 1;
@@ -303,7 +306,6 @@ section {
     width: 100%;
     height: auto;
     display: block;
-    margin-left: 50px;
     border-radius: 40px 40px;
     
 }
@@ -318,10 +320,15 @@ section {
 .auto2{
     display: inline-block;
     width: 500px;
+    margin-left: 100px;
 }
 .auto2 div{
     background: var(--bg-color);  
     overflow: hidden;  
+    padding: 20px;
+    margin-left: 50px;
+    padding: 30px;
+
 }
 .auto2 div img{
     opacity: 1;
@@ -329,9 +336,7 @@ section {
     width: 100%;
     height: auto;
     display: block;
-    margin-left: 50px;
     border-radius: 40px 40px;
-    
 }
 .auto2:hover div img{
     opacity: 0.5; 
@@ -344,10 +349,14 @@ section {
 .auto3{
     display: inline-block;
     width: 500px;
+    margin-left: 260px;
 }
 .auto3 div{
     background: var(--bg-color);  
     overflow: hidden;  
+    padding: 20px;
+    margin-left: 50px;
+    padding: 30px;
 }
 .auto3 div img{
     opacity: 1;
@@ -355,7 +364,6 @@ section {
     width: 100%;
     height: auto;
     display: block;
-    margin-left: 50px;
     border-radius: 40px 40px;
     
 }
@@ -368,12 +376,15 @@ section {
 }
 
 .auto4{
-    display: inline-block;
+    display: flex;
     width: 500px;
 }
 .auto4 div{
     background: var(--bg-color);  
     overflow: hidden;  
+    padding: 20px;
+    margin-left: 50px;
+    padding: 30px;
 }
 .auto4 div img{
     opacity: 1;
@@ -381,7 +392,6 @@ section {
     width: 100%;
     height: auto;
     display: block;
-    margin-left: 50px;
     border-radius: 40px 40px;
     
 }
