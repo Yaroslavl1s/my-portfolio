@@ -1,8 +1,39 @@
+.about-img {
+    position: relative;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.about-img img {
+    width: 90%;
+    border-radius: 50%;
+    border: .2rem solid var(--main-color);
+}
+
+.p {
+    width: 100px;
+}
+
+.about-content h3 {
+    font-size: 20px;
+    line-height: 70px;
+}
+
+
+.about-content p {
+    font-size: 20px;
+}
+
 .boximg {
     display: flex;
     flex-flow: nowrap;
     align-items: center;
 }
+
 
 .auto{
     display: inline-block;
