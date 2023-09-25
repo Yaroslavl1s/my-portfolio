@@ -1,3 +1,9 @@
+.boximg {
+    display: flex;
+    flex-flow: nowrap;
+    align-items: center;
+}
+
 .auto{
     display: inline-block;
     width: 500px;
@@ -29,7 +35,7 @@
 .auto2{
     display: inline-block;
     width: 500px;
-    margin-left: 100px;
+    
 }
 .auto2 div{
     background: var(--bg-color);  
@@ -58,7 +64,7 @@
 .auto3{
     display: inline-block;
     width: 500px;
-    margin-left: 260px;
+    
 }
 .auto3 div{
     background: var(--bg-color);  
@@ -111,3 +117,4 @@
 .auto4 + .auto div{
     background: var(--bg-color); 
 }
+
