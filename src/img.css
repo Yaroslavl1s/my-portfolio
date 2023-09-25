@@ -11,7 +11,6 @@
 .auto div{
     background: var(--bg-color);  
     overflow: hidden;  
-    padding: 20px;
     margin-left: 50px;
     padding: 30px;
 }
@@ -40,7 +39,6 @@
 .auto2 div{
     background: var(--bg-color);  
     overflow: hidden;  
-    padding: 20px;
     margin-left: 50px;
     padding: 30px;
 
@@ -69,7 +67,6 @@
 .auto3 div{
     background: var(--bg-color);  
     overflow: hidden;  
-    padding: 20px;
     margin-left: 50px;
     padding: 30px;
 }
@@ -97,7 +94,6 @@
 .auto4 div{
     background: var(--bg-color);  
     overflow: hidden;  
-    padding: 20px;
     margin-left: 50px;
     padding: 30px;
 }
